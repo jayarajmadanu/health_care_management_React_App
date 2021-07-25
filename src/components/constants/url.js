@@ -1,0 +1,17 @@
+export const BASE_URL = 'http://localhost:8080';
+export const LOGIN_URL = '/login';
+export const REGISTER_URL = '/register';
+export const SPECIFICATIONS_URL = '/getSpecifications';
+export const GET_DOCTORS_URL = '/getDoctors'
+export const GET_USER_BY_ID = '/getuserById';
+export const GET_TIMESLOTS = '/getTimeSlots';
+export const SCHEDULE_APOINTMENT = '/scheduleApointment';
+export const GET_MY_APOINTMENTS = '/getMyApointments';
+export const UPDATE_USER_URL = '/updateUser'
+export const GET_DOCTORS_TODAYS_APOINTMENTS = '/getDoctorsTodaysApointments';
+export const GET_DOCTORS_ACCEPTED_APOINTMENTS = '/getDoctorsAcceptedApointments';
+export const GET_DOCTORS_PENDING_APOINTMENTS = '/getDoctorsPendingApointments';
+export const UPDATE_BOOKING = '/updateBooking';
+export const ADD_REPORT = '/addReport';
+export const GET_REPORT_URL = '/getReport';
+export const ADD_DOCTOR_URL = '/addDoctor'

@@ -1,0 +1,38 @@
+.card{
+    width: 18rem;
+    height:25rem;
+    margin: 4px;
+}
+
+@media (min-width: 400px) {
+    .cardContainer{
+        display: block;
+        margin: auto;
+        width: 50%;
+        margin-top: 5vh;
+    }
+}
+
+@media (min-width: 720px) {
+    .cardContainer{
+        display: flex;
+        margin: auto;
+        width: 50%;
+        margin-top: 5vh;
+    }
+}
+
+.cardButton{
+    position: absolute;
+    bottom: 30px;
+    right:30%
+}
+
+.menu{
+    display: flex;
+}
+
+.body{
+    background-color: #bfbfbf;
+    height: 100vh;
+}
